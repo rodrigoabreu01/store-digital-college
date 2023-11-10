@@ -14,12 +14,14 @@ header{
     justify-content:space-around;
     width: 1440px;
     height: 195px;
+    
 }
 header .container-header1{
     display: flex;
     align-items: center;
     margin-top: 38px;
     margin-left: 100px;
+    
 }
 header .container-header1 .logo{
     display: flex;
@@ -69,11 +71,11 @@ header .container-header1 a{
     text-decoration: underline;
     font-size: 16px;
     margin-left: 30px;
-    margin-right: 30px;
     color: black;
 }
 header .container-header1 button{
-    margin-right: 30px;
+    margin-right: 50px;
+    margin-left: 50px;
     height: 40px;
     width: 114px;
     border-radius: 8px;
@@ -259,8 +261,15 @@ justify-content: center;
 .container-2 .container-colecoes .colecoes{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     font-size: 24px;
+    width: 1440px;
+    text-align: center;
+    margin-top: 70px;
+}
+.container-2 .container-colecoes .colecoes span{
+    font-weight: bold;
 }
 .container-2 .container-colecoes .colecoes img{
     width: 712px;
@@ -286,7 +295,7 @@ justify-content: center;
     display: flex;
     flex-direction: column;
     text-align: left;
-    width: 292px;
+    width: 300px;
     height: 439px;
     background-repeat: no-repeat;
     background-size: contain;
