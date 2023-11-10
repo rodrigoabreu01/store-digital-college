@@ -66,6 +66,8 @@ header .container-header1 .container-input img{
     cursor: pointer;
 }
 header .container-header1 a{
+    text-decoration: underline;
+    font-size: 16px;
     margin-left: 30px;
     margin-right: 30px;
     color: black;
@@ -79,6 +81,8 @@ header .container-header1 button{
     background-color:  #C92071;
     color: white;
     cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
 }
 header .container-header1 .buy{
     height: 30px;
@@ -101,10 +105,11 @@ header .menu-header ul{
     list-style: none;
 }
 header .menu-header ul li{
-    margin-right: 20px;
+    margin-right: 25px;
 }
 header .menu-header ul li a{
     font-size: 16px;
+    letter-spacing: 0.75px;
     text-decoration: none;
     color: #474747;
 }
@@ -121,27 +126,35 @@ header .menu-header ul li a{
 .container-primario .ofertas{
     width: 510px;
     height: 352px; 
+    display: flex;
+    flex-direction: column;
 }
 .container-primario .ofertas p{
     color: #F6AA1C;
     font-size: 16px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .container-primario .ofertas h1{
     margin-bottom: 20px;
     font-size: 64px;
 }
-.container-primario .ofertas h3{
+.container-primario .ofertas span{
     margin-bottom: 20px;
     font-size: 18px;
-    font-weight: none;
 }
 .container-primario .ofertas a{
     background-color: #C92071 ;
     border-radius: 8px;
-    padding: 10px;
     color: white;
     text-decoration: none;
+    width: 220px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 30px;
 }
 .container-primario .container-ofertas{
     width: 1303px;
@@ -156,7 +169,7 @@ header .menu-header ul li a{
 .container-primario .container-group{
     display: flex;
     justify-content: center;
-    margin-top: 60px;
+    margin-top: 80px;
 }
 
 .container-2{
@@ -173,6 +186,7 @@ header .menu-header ul li a{
 .container-2 .container-destaques1{
     margin-left: 100px;
 }
+
 .container-2 .container-destaques1 .destaque-1{
     background-image: url(imagem/destaques1.png);
 }
@@ -197,23 +211,29 @@ header .menu-header ul li a{
 .container-2 .container-destaques1 div p{
 margin-left: 30px;
 margin-top: 30px;
+color: #474747;
 background-color: #E7FF86;
 width: 92px;
 height: 32px;
 padding: 5px, 15px, 5px, 15px;
 border-radius: 29px;
 display: flex;
+font-size: 14px;
+font-weight: bold;
 align-items: center;
 justify-content: center;
 }
 .container-2 .container-destaques1 div h2{
     margin-left: 30px;
+    font-size: 32px;
+    color: #1F1F1F;
 }
 .container-2 .container-destaques1 div a{
     margin-left: 30px;
     background-color: #F5F5F5;
     width: 153px;
     height: 48px;
+    font-size: 16px;
     border-radius: 5px;
     display: flex;
     justify-content: center;
@@ -225,14 +245,26 @@ justify-content: center;
 .container-2 div{
     display: flex;
 }
+.container-2 h3{
+    font-size: 24px;
+    margin-bottom: 25px;
+}
 .container-2 .container-colecoes{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+
 .container-2 .container-colecoes .colecoes{
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 24px;
+}
+.container-2 .container-colecoes .colecoes img{
+    width: 712px;
+    height: 138px;
 }
 .container-2 .container-produtos{
     display: flex;
@@ -370,6 +402,7 @@ footer .container-footer1 div{
 }
 footer .container-footer1 div p{
     margin-bottom: 15px;
+    font-weight: bold;
 }
 footer .container-footer1 div ul li{
     margin-bottom: 5px;
@@ -384,9 +417,13 @@ footer .container-footer1 .div1-footer{
     margin-left: 100px;
     gap: 20px;
 }
-footer .container-footer1 .div1-footer img{
-    width: 253px;
-    height: 44px;
+footer .container-footer1 .div1-footer .imagem1{
+ width: 253px;
+ height: 44px;
+}
+footer .container-footer1 .div1-footer .imagem2{
+    width: 124px;
+    height: 20px;
 }
 footer  .rodape{
     width: 100%;
