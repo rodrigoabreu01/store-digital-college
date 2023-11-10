@@ -403,6 +403,7 @@ footer .container-footer1 div{
 footer .container-footer1 div p{
     margin-bottom: 15px;
     font-weight: bold;
+    font-size: 18px;
 }
 footer .container-footer1 div ul li{
     margin-bottom: 5px;
@@ -411,6 +412,7 @@ footer .container-footer1 div ul li, a{
     list-style: none;
     color: white;
     text-decoration: none;
+    font-size: 16px;
 }
 footer .container-footer1 .div1-footer{
     width: 307px;
